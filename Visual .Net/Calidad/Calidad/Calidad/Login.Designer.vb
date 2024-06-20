@@ -49,7 +49,7 @@ Partial Class Login
         Me.Label1.Location = New System.Drawing.Point(290, 40)
         Me.Label1.Name = "Label1"
         Me.Label1.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.Label1.Size = New System.Drawing.Size(256, 38)
+        Me.Label1.Size = New System.Drawing.Size(252, 37)
         Me.Label1.TabIndex = 1
         Me.Label1.Text = "Inicio Sesion"
         '
@@ -90,11 +90,11 @@ Partial Class Login
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(309, 247)
+        Me.Button1.Location = New System.Drawing.Point(361, 250)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(94, 29)
+        Me.Button1.Size = New System.Drawing.Size(127, 29)
         Me.Button1.TabIndex = 6
-        Me.Button1.Text = "Button1"
+        Me.Button1.Text = "Ingresar"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'Login
