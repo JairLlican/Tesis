@@ -26,9 +26,10 @@ Partial Class Login
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
-        Me.UserText = New System.Windows.Forms.TextBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.UsuarioText = New System.Windows.Forms.TextBox()
+        Me.ContraseñaText = New System.Windows.Forms.TextBox()
+        Me.BtnIngresar = New System.Windows.Forms.Button()
+        Me.BtnSalir = New System.Windows.Forms.Button()
         CType(Me.LogoLogin, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -73,39 +74,49 @@ Partial Class Login
         Me.Label3.TabIndex = 3
         Me.Label3.Text = "Contraseña"
         '
-        'UserText
+        'UsuarioText
         '
-        Me.UserText.BackColor = System.Drawing.Color.White
-        Me.UserText.Location = New System.Drawing.Point(383, 111)
-        Me.UserText.Name = "UserText"
-        Me.UserText.Size = New System.Drawing.Size(205, 27)
-        Me.UserText.TabIndex = 4
+        Me.UsuarioText.BackColor = System.Drawing.Color.White
+        Me.UsuarioText.Location = New System.Drawing.Point(383, 111)
+        Me.UsuarioText.Name = "UsuarioText"
+        Me.UsuarioText.Size = New System.Drawing.Size(205, 27)
+        Me.UsuarioText.TabIndex = 4
         '
-        'TextBox2
+        'ContraseñaText
         '
-        Me.TextBox2.Location = New System.Drawing.Point(383, 193)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(205, 27)
-        Me.TextBox2.TabIndex = 5
+        Me.ContraseñaText.Location = New System.Drawing.Point(383, 193)
+        Me.ContraseñaText.Name = "ContraseñaText"
+        Me.ContraseñaText.Size = New System.Drawing.Size(205, 27)
+        Me.ContraseñaText.TabIndex = 5
         '
-        'Button1
+        'BtnIngresar
         '
-        Me.Button1.Location = New System.Drawing.Point(361, 250)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(127, 29)
-        Me.Button1.TabIndex = 6
-        Me.Button1.Text = "Ingresar"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.BtnIngresar.Location = New System.Drawing.Point(290, 248)
+        Me.BtnIngresar.Name = "BtnIngresar"
+        Me.BtnIngresar.Size = New System.Drawing.Size(127, 29)
+        Me.BtnIngresar.TabIndex = 6
+        Me.BtnIngresar.Text = "Ingresar"
+        Me.BtnIngresar.UseVisualStyleBackColor = True
+        '
+        'BtnSalir
+        '
+        Me.BtnSalir.Location = New System.Drawing.Point(449, 248)
+        Me.BtnSalir.Name = "BtnSalir"
+        Me.BtnSalir.Size = New System.Drawing.Size(127, 29)
+        Me.BtnSalir.TabIndex = 7
+        Me.BtnSalir.Text = "Salir"
+        Me.BtnSalir.UseVisualStyleBackColor = True
         '
         'Login
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(600, 304)
+        Me.Controls.Add(Me.BtnSalir)
         Me.Controls.Add(Me.LogoLogin)
-        Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.TextBox2)
-        Me.Controls.Add(Me.UserText)
+        Me.Controls.Add(Me.BtnIngresar)
+        Me.Controls.Add(Me.ContraseñaText)
+        Me.Controls.Add(Me.UsuarioText)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
@@ -122,7 +133,8 @@ Partial Class Login
     Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents Label3 As Label
-    Friend WithEvents UserText As TextBox
-    Friend WithEvents TextBox2 As TextBox
-    Friend WithEvents Button1 As Button
+    Friend WithEvents UsuarioText As TextBox
+    Friend WithEvents ContraseñaText As TextBox
+    Friend WithEvents BtnIngresar As Button
+    Friend WithEvents BtnSalir As Button
 End Class

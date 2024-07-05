@@ -18,3 +18,5 @@ C:\Github\Tesis\Visual .Net\Calidad\Calidad\Calidad\obj\Debug\net5.0-windows\Cal
 C:\Github\Tesis\Visual .Net\Calidad\Calidad\Calidad\obj\Debug\net5.0-windows\ref\Calidad.dll
 C:\Github\Tesis\Visual .Net\Calidad\Calidad\Calidad\obj\Debug\net5.0-windows\Calidad.pdb
 C:\Github\Tesis\Visual .Net\Calidad\Calidad\Calidad\obj\Debug\net5.0-windows\Calidad.genruntimeconfig.cache
+C:\Github\Tesis\Visual .Net\Calidad\Calidad\Calidad\bin\Debug\net5.0-windows\Calidad.dll.config
+C:\Github\Tesis\Visual .Net\Calidad\Calidad\Calidad\obj\Debug\net5.0-windows\Calidad.FrmListadoTicket.resources
